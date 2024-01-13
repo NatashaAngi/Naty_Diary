@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+h1{color: greenyellow;text-align: center;font-size: 87px;font-family: 'Ubuntu', sans-serif;}
+
+.fundo-titulo{margin-right: 0 auto;justify-content: center;align-items: center;background-color: rgb(20, 20, 20);height: 500px;position: relative; margin-top:-20;}
+
+.fundo-titulo::before{content: " ";background-image: url(assets/pine-watt-2Hzmz15wGik-unsplash.jpg);background-position: center bottom;background-size: 2000px;background-repeat: no-repeat;opacity:0.4;position: absolute;inset: 0;}
+
+.titulo{isolation: isolate;padding: 13%;}
