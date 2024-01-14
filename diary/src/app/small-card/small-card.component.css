@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+.small-card{width: 570px;height: 200px;display: flex;flex-direction: column;border-bottom: 1px solid rgba(172, 255, 47, 0.354);border-radius: 30px;}
+
+.foto-small{display: flex;margin: 0;padding:0;width: 150px;height: 150px; margin-top: 20px;margin-left: 20px;}
+
+.foto-small img{max-width: 100%;max-height: ;}
+
+.titulo-small{display: flex;font-size:14px; margin-left: 200px;margin-top: -140px;color: rgba(209, 212, 215, 0.795);font-family: 'Ubuntu', sans-serif;margin-bottom: 20px;}
+
+.descricao-small{display:flex;margin-left: 200px;color: rgba(162, 165, 168, 0.54);font-family: 'Ubuntu', sans-serif;margin-bottom: 20px;}
+

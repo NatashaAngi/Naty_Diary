@@ -6,11 +6,12 @@ import {TituloComponent} from './titulo/titulo.component'
 import {BigCardComponent} from './big-card/big-card.component'
 import {SmallCardComponent} from './small-card/small-card.component'
 import {TudoComponent} from './tudo/tudo.component'
+import {FooterComponent} from './footer/footer.component'
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,TituloComponent,MenuBarComponent,BigCardComponent,SmallCardComponent,TudoComponent],
+  imports: [CommonModule, RouterOutlet,TituloComponent,MenuBarComponent,BigCardComponent,SmallCardComponent,TudoComponent,FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
