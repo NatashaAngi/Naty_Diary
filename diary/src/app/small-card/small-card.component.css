@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 
-.small-card{width: 570px;height: 200px;display: flex;flex-direction: column;border-bottom: 1px solid rgba(172, 255, 47, 0.354);border-radius: 30px;}
+.small-card{width: 570px;height: 200px;display: flex;flex-direction: column;border-bottom: 1px solid rgba(172, 255, 47, 0.354);border-radius: 30px;background-color: rgb(36, 34, 34);margin-bottom: 20px; box-shadow: 3px 3px 5px black;}
+
+.small-card:hover{box-shadow: 1px 1px 5px black inset}
 
 .foto-small{display: flex;margin: 0;padding:0;width: 150px;height: 150px; margin-top: 20px;margin-left: 20px;}
 

@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 
-.foto-big{align-items: center; margin: 0 auto;justify-content: center;text-align: center;}
+.foto-big{align-items: center; margin: 0 auto;justify-content: center;text-align: center;margin-top: 10px;}
 .foto-big img{height:250px;width: 350px;}
 
-.container-big-card{ display: flex; width: 400px;height: 450px;align-items: center;flex-direction: column;}
+.container-big-card{ display: flex; width: 400px;height: 350px;align-items: center;flex-direction: column; border: 1px solid rgb(33, 31, 31); margin-bottom: 30px;background-color: rgb(36, 34, 34);box-shadow: 3px 3px 5px black;border-radius: 30px;}
 
-.titulo-big{color: rgba(209, 212, 215, 0.795);text-shadow:2px 2px 2px black ;font-family: 'Ubuntu', sans-serif;line-height: 50px;margin-bottom: 25px;text-align: center;}
+.container-big-card:hover{box-shadow: 1px 1px 5px black inset}
+
+.titulo-big{color: rgba(209, 212, 215, 0.795);text-shadow:2px 2px 2px black ;font-family: 'Ubuntu', sans-serif;line-height: 20px;margin-bottom: 15px;text-align: center;margin-top: 10px;}
 
 .titulo-big:hover{text-decoration: underline;}
 
-.descricao-big{color: white;font-family: 'Lora', serif;text-shadow:2px 2px black}
+.descricao-big{color: white;font-family: 'Lora', serif;text-shadow:2px 2px black;margin-bottom: -20;}
