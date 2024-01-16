@@ -42,5 +42,5 @@ setValuetoComponent(id:string|null){ const result = datafake.filter(article => a
 this.ConteudoTitulo = result.titulo
 this.ConteudoDescricao = result.descricao
 this.ConteudoFoto = result.foto
-this.fotoCapa = result.foto}
+}
 } 
