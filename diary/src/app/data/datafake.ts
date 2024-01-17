@@ -1,17 +1,10 @@
-export const datafake = 
-[{"Id":"1",
-  "foto": "https://ovicio.com.br/wp-content/uploads/2023/04/20230405-ovicio-shrek-burro-555x555.jpg",
-  "titulo":"aaahhh",
-  "descricao": "eeehhh",
-  },
+export const dataFake = [
+    {"id":"1",
+    "photo":"https://pa1.aminoapps.com/6418/9b3ecfde90cebd9bc54fedec215f6892b4f2491d_hq.gif",
+    "titulo":"aaahh",
+    "description":"ashuahsu"},
 
-  
-{"Id":"2",
-  "foto": "aaa",
-  "titulo":"aaahhh",
-  "descricao": "eeehhh"},
-
-{"Id":"3",
-  "foto": "aaa",
-  "titulo":"aaahhh",
-  "descricao": "eeehhh"},]
+    {"id":"2",
+    "photo":"https://avaazdo.s3.amazonaws.com/342ff56ab4160e6d6c87c280b0acabe9.jpeg",
+    "titulo":"aaahh",
+    "description":"ashuahsu"}]

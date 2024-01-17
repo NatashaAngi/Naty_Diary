@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {datafake}from '../data/datafake'
+import { RouterModule, RouterOutlet } from '@angular/router';
+import {dataFake} from '../data/dataFake'
 @Component({
   selector: 'app-conteudo',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './conteudo.component.html',
   styleUrl: './conteudo.component.css'
 })
@@ -12,6 +13,7 @@ export class ConteudoComponent {
 
   
   
+
 
   @Input()
   ConteudoFoto:string =''
@@ -26,21 +28,20 @@ export class ConteudoComponent {
   @Input()
   ConteudoDescricao:string =''
 
-  @Input()
-  private Id:string | null= "0"
+  private id:string | null= "0"
 
-  constructor(
-    private route:ActivatedRoute
-  ) { }
 
-  ngOnInit():void{this.route.paramMap.subscribe(value => this.Id = value.get("Id"))
- 
+  constructor(private route:ActivatedRoute ){}
+  
+  ngOnInit():void{this.route.paramMap.subscribe( value => this.id = value.get("id"))
+this.setValueToComponent(this.id)}
+
+  setValueToComponent(id:string|null){ const result = dataFake.filter(article => article.id == id)[0]
+  
+    this.ConteudoTitulo = result.titulo
+    this.ConteudoDescricao = result.description
+    this.ConteudoFoto = result.photo
+  
+  }
+
 }
-
-setValuetoComponent(id:string|null){ const result = datafake.filter(article => article.Id == id)[0]
-
-this.ConteudoTitulo = result.titulo
-this.ConteudoDescricao = result.descricao
-this.ConteudoFoto = result.foto
-}
-} 
